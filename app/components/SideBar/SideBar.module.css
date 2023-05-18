@@ -1,0 +1,9 @@
+.sideBar {
+  position: fixed;
+  z-index: 100;
+  top: 50px;
+  right: 0;
+  background: darkorange;
+  width: 500px;
+  height: 100vh;
+}

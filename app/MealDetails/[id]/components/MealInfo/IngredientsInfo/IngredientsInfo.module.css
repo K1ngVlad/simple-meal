@@ -1,0 +1,35 @@
+.ingredientsInfo {
+  margin-top: 50px;
+  padding: 20px 40px 20px 20px;
+  background: darkorange;
+  color: white;
+}
+
+.ingredientsInfo h3 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.ingredient {
+  display: flex;
+  align-items: center;
+}
+
+.index {
+  min-width: 20px;
+  min-height: 20px;
+  font-size: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  background: rgb(27, 167, 167);
+  margin-right: 10px;
+}

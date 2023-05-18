@@ -1,0 +1,21 @@
+.instructionsInfo {
+  margin-top: 30px;
+}
+
+.instructions {
+  list-style: none;
+}
+
+.instruction {
+  margin-top: 20px;
+  display: flex;
+}
+
+.check {
+  user-select: none;
+  margin-right: 15px;
+}
+
+.info {
+  color: rgba(0, 0, 0, 0.7);
+}

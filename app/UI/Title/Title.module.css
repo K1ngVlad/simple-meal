@@ -1,0 +1,16 @@
+.title {
+  font-size: 40px;
+  font-weight: normal;
+  position: relative;
+  margin-bottom: 70px;
+}
+
+.title::after {
+  content: '';
+  position: absolute;
+  left: 0px;
+  bottom: -20px;
+  width: 70px;
+  height: 5px;
+  background: darkorange;
+}

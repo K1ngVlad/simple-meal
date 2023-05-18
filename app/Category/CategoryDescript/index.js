@@ -1,0 +1,1 @@
+export { CategoryDescript } from './CategoryDescript';

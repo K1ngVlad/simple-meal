@@ -1,0 +1,27 @@
+.measureInfo {
+  margin-top: 70px;
+}
+
+.measureInfo h3 {
+  margin-bottom: 20px;
+}
+
+.box {
+  padding: 20px;
+  background: rgb(245, 245, 245);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.measure {
+  display: flex;
+  align-items: center;
+}
+
+.spoon {
+  transform: rotate(30deg);
+  margin-right: 5px;
+  user-select: none;
+}

@@ -1,0 +1,45 @@
+.mealElem {
+  position: relative;
+  transition-duration: 0.2s;
+  background: white;
+  box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  border-radius: 5px;
+  min-height: 300px;
+}
+
+.mealElem img {
+  width: 100%;
+  object-fit: cover;
+  object-position: right;
+  user-select: none;
+}
+
+.info {
+  padding: 15px;
+  user-select: none;
+}
+
+.mealElem span {
+  display: flex;
+  align-items: center;
+}
+
+.mealElem:hover {
+  transform: scale(1.02);
+}
+
+.area {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.categ {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding: 3px 10px;
+  color: darkorange;
+  border-radius: 10px;
+  background: white;
+  user-select: none;
+}

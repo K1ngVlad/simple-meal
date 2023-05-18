@@ -1,0 +1,19 @@
+.categoryDescript {
+  padding-bottom: 0;
+}
+
+.box {
+  border: solid 2px darkorange;
+  background: rgb(236, 235, 233);
+  padding: 20px;
+}
+
+.name {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: darkorange;
+}
+
+.descript {
+  color: rgba(0, 0, 0, 0.5);
+}
