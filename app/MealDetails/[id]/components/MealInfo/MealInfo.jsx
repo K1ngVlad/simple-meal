@@ -31,7 +31,11 @@ const MealInfo = (props) => {
           <b>Tags:</b>{' '}
           <span>
             {tags
-              ? tags.map((tag) => <span className={s.tag}>{tag}</span>)
+              ? tags.map((tag) => (
+                  <span key={tag} className={s.tag}>
+                    {tag}
+                  </span>
+                ))
               : 'No tags'}
           </span>
         </div>

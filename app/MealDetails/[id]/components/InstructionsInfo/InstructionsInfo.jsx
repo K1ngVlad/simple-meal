@@ -11,7 +11,7 @@ const InstructionsInfo = ({ strInstructions }) => {
         {instructions.map(
           (instruction) =>
             instruction.trim() && (
-              <li className={s.instruction}>
+              <li key={instruction} className={s.instruction}>
                 <Image
                   draggable={false}
                   src={check}

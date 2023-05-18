@@ -6,8 +6,8 @@ const IngredientsInfo = ({ ingredients }) => {
       <h3>Ingredients:</h3>
       <div className={s.box}>
         {ingredients.map((ingredient, index) => (
-          <div className={s.ingredient}>
-            <div className={s.index}>{index}</div>
+          <div key={ingredient} className={s.ingredient}>
+            <div className={s.index}>{index + 1}</div>
             <span>{ingredient}</span>
           </div>
         ))}

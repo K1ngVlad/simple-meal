@@ -9,7 +9,7 @@ const Meals = ({ meals }) => {
       {meals ? (
         <div className={s.meals}>
           {meals.map((e) => (
-            <MealElem {...e} />
+            <MealElem {...e} key={e.idMeal} />
           ))}
         </div>
       ) : (

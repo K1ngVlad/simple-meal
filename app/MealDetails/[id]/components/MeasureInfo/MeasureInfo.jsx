@@ -7,8 +7,8 @@ const MeasureInfo = ({ measures }) => {
     <div className={s.measureInfo}>
       <h3>Measure:</h3>
       <div className={s.box}>
-        {measures.map((measure) => (
-          <div className={s.measure}>
+        {measures.map((measure, index) => (
+          <div key={index} className={s.measure}>
             <Image
               draggable={false}
               src={spoon}

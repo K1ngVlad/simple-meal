@@ -16,7 +16,7 @@ const Categories = async () => {
       <Title>Categories</Title>
       <div className={s.categories}>
         {data.categories.map((e) => (
-          <CategoryElem {...e} />
+          <CategoryElem {...e} key={e.idCategory} />
         ))}
       </div>
     </section>
